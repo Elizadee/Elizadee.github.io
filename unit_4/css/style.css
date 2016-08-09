@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Khula);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+@import url(https://fonts.googleapis.com/css?family=Martel:300);
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	text-align: center;
+	font-family: 'Martel', serif;
+	font-size: 1em;
+	background-color: #7D0B47;
+	line-height: 1.5em;
+}
+
+#splash {
+	background: url("../images/sgpic2.jpg");
+	background-size:cover;
+	color:#fff;
+	height:90vh;
+}  	 
+.logo {
+	background-color:#FFFAE0;
+	color: #AB0000;
+	font-weight:bold;
+	font-size:2em;
+	text-align: left;
+	width: 170px;
+	font-family: Helvetica, sans-serif;
+}
+.login { 
+	color: white; 
+	font-family: 'Khula', sans-serif;
+	text-align: right;
+}
+section {
+	padding:4em 0;
+	background-color:#20B2AA;
+}
+nav a {margin-right: 10px;
+}
+h2 {color: black;
+	font-family: 'Khula', sans-serif;
+}
+h3 {color: #900C3F;
+}
+p {text-align: center;
+}	
+ul {
+	padding-left:1.25em;
+	text-align: left;
+}
+#slogan {
+	    font-size: 25px;
+		color: #FF6C11;
+		font-family: 'Khula', sans-serif;
+}
+hr {width: 200px;
+}
+
+
+
