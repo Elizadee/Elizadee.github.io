@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Khula);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+@import url(https://fonts.googleapis.com/css?family=Martel:300);
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+header { 
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}	
+
+nav a {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}	
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+body {
+	text-align: center;
+	font-family: 'Martel', serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#splash {
+	background: url("../images/abspic3.jpeg");
+	background-size: cover;
+	color:#fff;
+	height: 90vh;
+}  	 
+.logo {
+	background-color:#FFFAE0;
+	color: #AB0000;
+	padding: 5px;
+	font-weight:bold;
+	font-size:2em;
+	text-align: left;
+	width: 180px;
+	font-family: Helvetica, sans-serif;
+}
+.login { 
+	color: white; 
+	font-family: 'Khula', sans-serif;
+	text-align: right;
+}
+
+h2 {color: black;
+	font-family: 'Khula', sans-serif;
+}
+h3 {color: #900C3F;
+}
+p {text-align: center;
+}	
+ul {
+	padding-left:1.25em;
+	text-align: left;
+}
+#slogan {
+	    font-size: 25px;
+		color: #2F4F4F;
+		font-family: 'Khula', sans-serif;
+}
+hr {width: 200px;
+}
+
+
+
