@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Khula);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+@import url(https://fonts.googleapis.com/css?family=Martel:300);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+header {  
+	/*background-color: #9C2C41;*/
+	background-color: #FFED74;
+	border: 1px black solid; 
+	padding: 20px;
+}	
+
+nav a {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 5px; 
+}	
+
+footer {
+	/*background-color: #9C2C41;*/
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px; 
+}
+
+.wrapper {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	border: 1px black solid;
+	padding: 20px;
+}
+
+body {
+	text-align: center;
+	font-family: 'Martel', serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+#splash {
+	background: url("../images/abspic3.jpeg");
+	background-size: cover;
+	color:#fff;
+	height: 90vh;
+}  	 
+.logo {
+	background-color:#FFFAE0;
+	color: #AB0000;
+	padding: 5px;
+	font-weight:bold;
+	font-size:2em;
+	text-align: left;
+	width: 180px;
+	font-family: Helvetica, sans-serif;
+	border: 5px;
+}
+.login { 
+	color: white; 
+	font-family: 'Khula', sans-serif;
+	text-align: right;
+}
+
+h2 {color: black;
+	font-family: 'Khula', sans-serif;
+}
+h3 {color: #900C3F;
+}
+p {text-align: center;
+}	
+ul {
+	padding-left:1.25em;
+	text-align: left;
+}
+#slogan {
+	    font-size: 25px;
+		color: #2F4F4F;
+		font-family: 'Khula', sans-serif;
+}
+hr {width: 200px;
+}
+
+/*#about {
+	background-color:#AC3826;
+	color: white;
+}
+how-it-works {
+	background-color: #D26A58;
+	color: white;
+}
+#drop-down-buttons {
+	background-color: #7CCABA;
+}
+#project {
+	background-color: #46AF3E;
+}
+
+#find-an-expert {
+	background-color: #D4D6C6;
+}
+#vision {
+	background-color: #7CCABA;
+}*/
+
+#two-column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding:  20px;
+	float: left;
+	width: 38%;
+}
+#right { 
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 58%;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
