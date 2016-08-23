@@ -144,8 +144,8 @@ fieldset {
 form div {
 	border:1px solid;
 	display:inline-block;
-	width: 15em;
-	height: 15em;
+	width: 12em;
+	height: 12em;
 	border-radius: 55%;
 }
 form p {
