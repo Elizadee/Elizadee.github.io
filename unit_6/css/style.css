@@ -2,22 +2,27 @@
 @import url(https://fonts.googleapis.com/css?family=Lora);
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
 @import url(https://fonts.googleapis.com/css?family=Martel:300);
-@import url(https://fonts.googleapis.com/css?family=Lato);
 
 * {margin:0;padding:0;box-sizing:border-box;}
 
 header {  
 	/*background-color: #9C2C41;*/
 	background-color: #FFED74;
-	border: 1px black solid; 
-	padding: 20px;
+	/*border: 1px black solid; */
+	padding: 5px;
 }	
 
 nav a {
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 5px; 
+	background-color: #EDBB99;
+	/*border: 1px black solid;*/
+	padding: 0 32px;
+	margin-right: 3em;
+	text-decoration: none;
 }	
+
+nav a:hover {
+	background-color: #FEF9E7;
+}
 
 footer {
 	/*background-color: #9C2C41;*/
@@ -26,18 +31,18 @@ footer {
 	padding: 20px; 
 }
 
-.wrapper {
+/*.wrapper {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
 	width: 75em;
-	margin: auto;
-}
+	margin:auto;
+}*/
 
 section {
 	border: 1px black solid;
 	padding: 20px;
-	background: #fff;
+	background-color:#FFE2B8; 
 }
 
 body {
@@ -70,12 +75,15 @@ body {
 	text-align: right;
 }
 
-h2 {color: black;
+h2 {
+	color: black;
 	font-family: 'Khula', sans-serif;
 }
-h3 {color: #900C3F;
+h3 {
+	color: #900C3F;
 }
-p {text-align: center;
+p {
+	text-align: center;
 }	
 ul, ol {
 	padding-left:1.25em;
@@ -88,6 +96,7 @@ ul, ol {
 }
 hr {width: 200px;
 }
+
 
 /*#about {
 	background-color:#AC3826;
@@ -122,8 +131,9 @@ how-it-works {
 	border: 1px black solid;
 	padding: 2em;
 	float: left;
-	width: 50%;
-	/* margin: 1%; */
+	width: 48%;
+	margin: 1%;
+	max-width: 550px;
 }
 
 .clearfix:after {
@@ -147,11 +157,22 @@ form div {
 	width: 12em;
 	height: 12em;
 	border-radius: 55%;
+	background-color: #E59866;
 }
+
 form p {
 	margin-top:40%;
 }
+
 button { 
-	display:block;
+	display: block;
 	margin:2em auto 0;
 }
+
+
+/*#about + h2 {
+	background-color: white;
+
+}*/
+
+
