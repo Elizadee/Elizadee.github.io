@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Khula);
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+@import url(https://fonts.googleapis.com/css?family=Martel:300);
+
+* {margin:0;padding:0;box-sizing:border-box;}
+
+header {  
+	background-color: #9C2C41;
+	/*padding: 5px;*/
+}	
+
+nav a {
+	/*background-color: #8B0000;*/
+	color: #FAD7A0;
+	/*font-weight: bold;*/
+	padding: 0 32px;
+	margin-right: 3em;
+	text-decoration: none;
+}	
+
+nav a:hover {
+	color: #FF5733;
+}
+
+footer {
+	background-color: #9C2C41;
+	padding: 20px; 
+}
+
+/*.wrapper {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+	width: 75em;
+	margin:auto;
+}*/
+
+section {
+	padding: 20px;
+	background-color:#FFE2B8; 
+}
+
+body {
+	text-align: center;
+	font-family: 'Martel', serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+#splash {
+	background: url("../images/abspic3.jpeg");
+	background-size: cover;
+	color:#fff;
+	height: 90vh;
+}  	 
+.logo {
+	background-color:#FFFAE0;
+	color: #AB0000;
+	padding: 5px;
+	font-weight:bold;
+	font-size:2em;
+	text-align: left;
+	width: 180px;
+	font-family: 'Helvetica neue', sans-serif;
+	/*border: 5px;*/
+}
+.login { 
+	color: white; 
+	font-family: 'Khula', sans-serif;
+	text-align: right;
+	/*background-color: #78281F;*/
+	/*padding: 0 32px;*/
+}
+.cta {
+	color: #D68910;
+}
+h2 {
+	color: black;
+	font-family: 'Khula', sans-serif;
+}
+h3 {
+	color: #900C3F;
+}
+p {
+	text-align: center;
+}	
+ul, ol {
+	padding-left:1.25em;
+	text-align: left;
+}
+#slogan {
+	    font-size: 25px;
+		color: #2F4F4F;
+		font-family: 'Khula', sans-serif;
+}
+hr {width: 200px;
+}
+
+
+#about {
+	background-color: #46AF3E;
+}
+
+how-it-works {
+	background-color: #D26A58;
+}
+
+#project {
+	/*background-color: #46AF3E;*/
+	background-color: rgba(70, 175, 62, .2);
+}
+
+#find-an-expert {
+	/*background-color: #D4D6C6;*/
+	background-color: rgba(70, 175, 62, .4);
+}
+
+#vision {
+	/*background-color: #7CCABA;*/
+	background-color: rgba(70, 175, 62, .8);
+}
+
+#two-column {
+	background-color: #FFFAE0;
+	padding: 20px;
+}
+
+#two-column div {
+	background-color: #FAD7A0;
+	padding: 2em;
+	float: left;
+	width: 48%;
+	margin: 1%;
+	max-width: 550px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+/*****************
+	form
+******************/
+fieldset {
+	border:none;
+	color: #2F4F4F;
+}
+
+form div {
+	border:1px solid #9C2C41;
+	display:inline-block;
+	width: 11em;
+	height: 11em;
+	border-radius: 55%;
+	background-color: #2F4F4F;
+	margin-right: .75em;
+}
+
+form p {
+	margin-top:40%;
+}
+
+button { 
+	display: block;
+	margin:4em auto 0;
+	padding: .5em;
+
+}
+
+
+
+
