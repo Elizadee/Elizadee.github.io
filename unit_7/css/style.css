@@ -6,6 +6,7 @@
 
 header {  
 	background-color: #9C2C41;
+	display: block;
 	/*padding: 5px;*/
 }	
 
@@ -17,6 +18,14 @@ nav a {
 	margin-right: 3em;
 	text-decoration: none;
 }	
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
 
 nav a:hover {
 	color: #FF5733;
@@ -35,10 +44,11 @@ footer {
 	margin:auto;
 }*/
 
-section {
+/*section {
 	padding: 20px;
 	background-color:#FFE2B8; 
-}
+	display:block;
+}*/
 
 body {
 	text-align: center;
