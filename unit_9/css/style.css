@@ -1,0 +1,413 @@
+@import url(https://fonts.googleapis.com/css?family=Khula);
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+@import url(https://fonts.googleapis.com/css?family=Martel:300);
+
+* {margin:0;padding:0;box-sizing:border-box;}
+
+header {  
+	background-color: #CB4335;
+	display: block;
+}	
+header p {
+	float: left;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+nav { 
+	padding-top: 1.2em; 
+}
+nav a {
+	color: #F3C9BB;
+	padding: 0 32px;
+	margin-right: 1em;
+	text-decoration: none;
+}	
+
+nav a:hover {
+	background-color: #B6380E;
+	border-radius:4%;
+}
+label {
+	color: #F3C9BB;
+	padding: 0 32px;
+	margin-right: 1em;
+	text-decoration: none;
+	display: none;
+}	
+
+#toggle{ 
+	display:none; 
+}
+
+footer {
+	background-color: #CB4335;
+	/*padding: 20px;*/
+	padding: 1%;
+}
+
+/*.wrapper {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+	width: 75em;
+	margin:auto;
+}*/
+
+section {
+	padding: 2%;
+	background-color:#FFFAE0; 
+	display:block;
+
+}
+
+body {
+	text-align: center;
+	font-family: 'Martel', serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+#splash {
+	background: url("../images/abspic3.jpeg");
+	background-size: cover;
+	color:#fff;
+	height: 90vh;
+	width: 100%;
+}  	 
+.logo a {
+	background-color:#FFFAE0;
+	color: #AB0000;
+	padding: 10px 5px 6px;
+	font-weight:bold;
+	font-size:2em;
+	text-align: left;
+	width: 100%;
+	font-family: 'Helvetica neue', sans-serif;
+	/*border: 5px;*/
+	text-decoration: none;
+}
+
+.logo: active{
+}
+
+.login { 
+	font-family: 'Khula', sans-serif;
+	text-align: right;
+	float: right;
+	padding: 12px 12px 0;
+}
+.login a {
+	color: #FFFAE0;
+	border: 1px #FFFAE0 solid;
+	border-radius: 4%;
+	padding: 0 16px;
+	margin: 5px 0 ;
+	/*padding: 0 16px;*/
+	text-decoration: none;
+
+}
+.login a:hover {
+	background-color: #FFFAE0;
+	color:#9C2C41;
+	font-style: bold;
+}
+
+h2 {
+	color: #464741;
+	font-family: 'Helvetica neue', sans-serif;
+	/*padding: 12px 12px 0;*/
+	padding:.24%;
+}
+h3 {
+	color: #9C2C41;
+}
+/*h4 {
+	background-color: yellow;
+	height: 3em;
+	width: 3em;
+	border-radius: 55%;
+	float: left;
+	font-family: 'Khula', sans-serif;
+	font-size: 1.5em;
+	margin-top: 1.5em;
+}*/
+h4 {
+	font-family: 'Helvetica neue', sans-serif;
+	font-size: 1.2em;
+	color:#464741 ;
+	margin-bottom: .75em;
+}
+
+h5 {
+	font-family: 'Helvetica neue', sans-serif;
+	font-size: 1.2em;
+	color: #464741;
+	margin-bottom: 1em;
+
+}
+
+p {
+	text-align: center;
+}	
+
+#slogan {
+	    font-size: 1.8em;
+		color: #2F4F4F;
+		font-family: 'Khula', sans-serif;
+		padding-top: 2.5em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+#about {
+	background-color: #FFFAE0;
+	color:#616A6B;
+	max-width:;
+
+}
+#portfolio-images div {
+	color:#616A6B ;
+	max-width: 216px;
+    border: white 5px solid;
+	/*width:33%;*/
+	margin: 16px;
+	float:left;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#portfolio-images{
+	background-color: #FFFAE0;
+}
+
+/*.img1 {
+	border: white 5px solid;;
+}*/
+
+#perks{
+	background-color:#FFFAE0;
+}
+
+#perks div {
+	background-color: #FFFAE0;
+	color:#616A6B ;
+	max-width: 250px;
+	/*width:33%;*/
+	margin: 38px;
+	float:left;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#testimonials{
+	background-color: #BDBFB9;
+	border-top:#EBDEB6 5px solid;
+	border-bottom:#EBDEB6 5px solid;
+}
+
+#testimonials div{
+	/*background-color:#EBDEB6;*/
+	background-color: #BDBFB9;
+	color: #FFFFFF;
+	padding: 1em;
+	float: left;
+	/*width: 33%;*/
+	max-width: 300px;
+	/*max-width: 300px;*/
+	margin: 10px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+/*.wrapper{
+	background-color:purple;
+	width: 1001px;
+	margin:auto;
+}*/
+
+/*#project {
+	background-color: #EBDEB6;
+	color:#616A6B;
+}
+
+#find-an-expert {
+	background-color: #EBDEB6;
+	color:#616A6B;
+}
+
+#vision {
+	background-color:#EBDEB6;
+	color:#616A6B; 
+	float:left;
+}*/
+
+#hiw-columns {
+	background-color: #EBDEB6;
+	color: #616A6B;
+
+}
+
+
+#hiw-columns div {
+	background-color: #EBDEB6;
+	float: left;
+	width:220px;
+	height: 240px;
+	padding: 20px;
+	margin: 12px;
+}
+#clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.number{
+	color: #CB4335;
+	font-family: 'Khula', sans-serif;
+	font-size: 1.5em;
+	border: #CB4335 2px solid;
+	height: 1.5em;
+	width: 1.5em;
+	border-radius: 55%;
+	margin: auto;
+	text-align: center;
+}
+ hr{
+ 	width: 50%;
+ 	margin:auto;
+}
+
+
+/*****************
+	form
+******************/
+fieldset {
+	border:none;
+	color: #2F4F4F;
+	font-style: bold;
+	/*float: left;
+	margin-left: 8em;
+	padding-left: 2em;*/
+	margin-top: 3em;
+}
+
+form div {
+	border:1px solid #2F4F4F;
+	display:inline-block;
+	width: 8em;
+	height: 8em;
+	border-radius: 55%;
+	color:#FFFAE0;
+	background-color: #2F4F4F;
+	margin: 20px 12px;
+}
+
+form p {
+	margin-top:32%;
+}
+
+button { 
+	display: block;
+	width: 70px;
+	margin: .25em auto 0;
+	padding: 10px 12px;
+	/*float: right;*/
+	background-color: #AB0000;
+	color: #FFFAE0;
+	border: 1px solid #2F4F4F;
+	border-radius: 8%;
+	/*margin-right: 3em;*/
+
+}
+
+/*
+@media only screen and (max-width: 754px){
+	nav a{
+		padding: 0 15px;
+	}
+	body { 
+		font-size: 14px;
+   }
+
+}
+
+@media only screen and (max-width: 610px){
+	label {
+		display: block;
+		padding-top: 1em;
+	}	
+	nav {
+		display: none;
+
+	}
+	nav a{
+		display: block;
+		text-align: center;
+	}
+	#toggle:checked + nav{
+		display: block;
+	}
+	footer {
+		display: block;
+	}
+	
+	body { 
+	    font-size: 13px; 
+	}
+	
+}
+
+@media only screen and (max-width: 557px){
+ 	body{ 
+ 	font-size: 12px; 
+ 	}
+ 	
+	form div{
+		display:none;
+	}
+	
+	button{
+		margin-top: 3em;
+		
+    }
+}*/
+
+
