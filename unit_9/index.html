@@ -1,180 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>ScapeGoat</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ScapeGoat</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta charset="utf-8">
+	</head>
 
-<body>
-	<header class="clearfix">
-		<p class="logo"><a href="#">ScapeGoat</a> </p>	
-		<p class="login"><a href="#">Log-In</a> </p>
-		<label for="toggle">Menu</label>
-		<input type="checkbox" id="toggle">	
-		<nav>
-			<a href="#">About</a>
-			<a href="#">How it works</a>
-			<a href="#">Gallery</a>
-		</nav>
+	<body>
+		<header class="clearfix">
+			<p class="logo"><a href="#">ScapeGoat</a> </p>	
+			<p class="login"><a href="#">Log-In</a> </p>
+			<label for="toggle">Menu</label>
+			<input type="checkbox" id="toggle">	
+			<nav>
+				<a href="#">About</a>
+				<a href="#">How it works</a>
+				<a href="#">Gallery</a>
+			</nav>
 
-	</header>
-	<section id="splash">
-		<div>
-			<h1 id="slogan"> Let designers shape your landscaping dreams.</h1>
-			<h3> List your needs. Find your match. Hire the experts.</h3>
-		</div>
+		</header>
+		<section id="splash">
+			<div>
+				<h1 id="slogan"> Let designers shape your landscaping dreams.</h1>
+				<h3> List your needs. Find your match. Hire the experts.</h3>
+			</div>
 
+			<div class="image" id="drop-down-buttons">
+	   			<form>
+			        <fieldset>
+				       <legend></legend>
+		        		Enter zip code: <input type="text"><br>
+		        	</fieldset>
+			    	<div class="search form">
+			    		<p>Type</p>
+			    		<select name="type">
+			       			<option value="residential">Residential</option>
+			       			<option value="commercial">Commercial</option> 
+			    		</select>
+			    	</div>
+			        <div class="search form"> 
+			        	<p>Space</p>
+			        	<select name="space">
+			        	    <option value="front yard">Front yard</option>
+			        	    <option value="back yard">Back yard</option>
+			        	    <option value="sidewalk">Sidewalk</option>
+			        	    <option value="curb">Curb</option>
+			        	</select>
+			        </div>
+			        <div class="search form"> 
+			        	<p>Design Theme</p>
+			        	<select name="design theme">
+				            <option value="modern">Modern</option>
+				            <option value="country style">Country style</option>
+				            <option value="traditional">Traditional</option>
+				            <option value="tropical">Tropical</option>
+				            <option value="eco-friendly">Eco-Friendly</option>
+				            <option value="mediterranean">Mediterranean</option>
+				            <option value="southwestern">Southwestern</option>
+				            <option value="japanese">Japanese</option>
+				            <option value="other">Other</option>
+						</select>
+			        </div>
+			        <div class="search form">
+			        	<p>Other Services</p>
+			            <select name="other services">
+			                <option value="mow grass">Mow grass</option>
+			                <option value="service lawn">Service lawn</option>
+			                <option value="garden">Garden</option> 	
+			                <option value="synthetic grass">Synthetic Grass</option>
+			                <option value="lighting">Lighting</option>
+			                <option value="fences">Fences</option>
+			                <option value="outdoor patio">Outdoor Patio</option>
+			                <option value="----"> ----</option>
+			            </select>
+			        </div>
+			    </form> 
+			        <div class="search button">
+			        	<button type= "button">Start</button>
+			        </div>
+			</div>
+		</section>
 
-	<div class="image" id="drop-down-buttons">
-   			<form>
-		        <fieldset>
-			       <legend></legend>
-	        		Enter zip code: <input type="text"><br>
-	        	</fieldset>
-		    	<div class="search form">
-		    		<p>Type</p>
-		    		<select name="type">
-		       			<option value="residential">Residential</option>
-		       			<option value="commercial">Commercial</option> 
-		    		</select>
-		    	</div>
-		        <div class="search form"> 
-		        	<p>Space</p>
-		        	<select name="space">
-		        	    <option value="front yard">Front yard</option>
-		        	    <option value="back yard">Back yard</option>
-		        	    <option value="sidewalk">Sidewalk</option>
-		        	    <option value="curb">Curb</option>
-		        	</select>
-		        </div>
-		        <div class="search form"> 
-		        	<p>Design Theme</p>
-		        	<select name="design theme">
-			            <option value="modern">Modern</option>
-			            <option value="country style">Country style</option>
-			            <option value="traditional">Traditional</option>
-			            <option value="tropical">Tropical</option>
-			            <option value="eco-friendly">Eco-Friendly</option>
-			            <option value="mediterranean">Mediterranean</option>
-			            <option value="southwestern">Southwestern</option>
-			            <option value="japanese">Japanese</option>
-			            <option value="other">Other</option>
-				</select>
-		        </div>
-		        <div class="search form">
-		        	<p>Other Services</p>
-		            <select name="other services">
-		                <option value="mow grass">Mow grass</option>
-		                <option value="service lawn">Service lawn</option>
-		                <option value="garden">Garden</option> 	
-		                <option value="synthetic grass">Synthetic Grass</option>
-		                <option value="lighting">Lighting</option>
-		                <option value="fences">Fences</option>
-		                <option value="outdoor patio">Outdoor Patio</option>
-		                <option value="----"> ----</option>
-		            </select>
-		        </div>
-		    </form> 
-		        <div class="search button">
-		        	<button type= "button">Start</button>
-		        </div>
-	</section>
-
-	<section id="about">
+		<section id="about">
 			<h2>About Us</h2>
-			<p> ScapeGoat connects homeowners and businesses to a network of qualified design professionals in providing their landscaping needs and to help bring their vision to life. ScapeGoat makes venturing into the process of planning your next project easier.</p>
-	</section>
+			<img src="images/leaf-color.png" alt="leaf">
+			<p> ScapeGoat connects homeowners and businesses to a network of qualified design professionals in providing their landscaping needs. At ScapeGoat, finding an expert in achieving your vision makes the process of outdoor space planning easier.</p>
+		</section>	
+
+		<section id="how-it-works" class="clearfix">
+			<h2> How it Works</h2>
+			<section class="hiw-columns">
+				<p class= "number">1</p>
+				<h4>Create</h4>
+				<p>Build a summary description with details of your project needs in our form.</p>
+			</section>
+			<section class="hiw-columns">
+				<p class= "number">2</p>
+				<h4>Get matched</h4>
+				<p>Get a list of matched results of design experts in your area and free quotes.</p>
+			</section>
+			<section class="hiw-columns">
+		        <p class="number">3</p>
+		        <h4>Connect</h4>
+				<p>Connect with design experts and discuss project proposals. </p>
+			</section>
+			<section class="hiw-columns">
+				<p class="number">4</p>
+				<h4>Book</h4>
+				<p>Book your project with the design expert that best fits your needs.</p>
+			</section>
+		</section>
+			
+		<section id="project-images" class="clearfix">
+			<h2>Great Outdoor Spaces</h2>
+			<hr>
+			<section class= "group-images-one" class="clearfix">	
+				<img src="images/project eg 3.jpg" alt="japanese theme">
+			</section>
+			<section class= "group-images-one">
+				<img src="images/cactus.jpg" alt="cactus plant">
+				<p>Visions tranformed daily <br> Find your style </p>
+			</section>
+			<section class= "group-images-one">
+				<img src="images/project eg 17 copy.jpg" alt="modern theme">
+			</section>
+			<section class= "group-images-two" class="clearfix">
+				<img src="images/flower 2.jpg" alt="flower">
+			</section>
+			<section class= "group-images-two">
+				<img src="images/southwestern 4.jpg" alt="southwestern home">
+			</section>
+			<section class= "group-images-two">
+				<img src="images/pebbles.jpg" alt="pebbles">
+			</section>
+		</section>
+
+		<section id="testimonials" class="clearfix">
+			<section class="client-columns">
+				<img src="images/couple pic edit.jpg" alt="couple">
+				<hr>
+				<p>"With ScapeGoat we found Janet (designer) who used her great expertise in transforming our entire frontyard into a contemporary oasis."-Sarah and Ivan H., Los Angeles</p>
+			</section>
+			<section class="client-columns">
+				<img src="images/woman pic 3.jpg" alt="customer 2">
+				<hr>
+				<p>"I feel such great pride with my new curb appeal."-Katie C., Arizona</p>
+			</section>
+			<section class="client-columns">
+				<img src="images/woman-sitting 2.jpg" alt="customer 3">
+				<hr>
+			    <p>"I can finally relax in my dream backyard thanks to ScapeGoat and my designer, Diane."-Lorianne M., Massachusetts</p>
+			</section>
+		</section>
+
+		<section id="perks" class="clearfix">
+			<h2> Get the most out of signing up for free</h2>
+			<section class="perks-columns"> 
+				<img src="images/new money coin.png" alt="money coin" title="save money">
+				<h5>Free quotes, Easy budgeting</h5>
+				<p>Compare the cost with your top matches.</p>
+			</section>
+			<section class="perks-columns"> 
+		    	<img src="images/new thumb.png" alt="thumb up" title="top-rated">
+				<h5>Top-rated design experts</h5>
+				<p>See the great reviews of professionals in your area.</p>
+			</section>
+			<section class="perks-columns"> 
+				<img src="images/lt bulb 2.png" alt="lightbulb" title="idea">
+				<h5>Popular design themes</h5>
+				<p>See our gallery and blogs for great project ideas.</p>
+			</section>
+		</section>
 	
-	<section id="hiw-columns" class="clearfix">
-		<h2> How it Works</h2>
-		<div>
-			<p class= "number">1</p>
-			<h4>Create</h4>
-			<p>Build a summary description with details of your project needs in our form.</p>
-		</div>
-		<div>
-			<p class= "number">2</p>
-			<h4>Get matched</h4>
-			<p>Get a list of matched results of design experts in your area and free quotes.</p>
-        </div>
-        <div>
-        	<p class="number">3</p>
-        	<h4>Connect</h4>
-			<p>Connect with design experts and discuss project proposals. </p>
-		</div>
-		<div>
-			<p class= "number">4</p>
-			<h4>Book</h4>
-			<p>Book your project with the design expert that best fits your needs.</p>
-		</div>
-	</section>
-	
-	<section id="portfolio-images" class="clearfix">
-		<h2>See for yourself!</h2>
-		<hr>
-		<div>	
-			<img src="images/project eg 3.jpg" alt="japanese" width= "200" height= "334">
-		</div>
-		<div>
-			<img src="images/project eg 18.jpg" alt="traditional" width= "200" height= "334">
-		</div>
-		<div>
-			<img src="images/project eg 17.jpg" alt="modern" width= "206" height= "334">
-		</div>
-		<div>
-			<img src="images/project eg 20.jpg" alt="traditional2" width= "200" height= "334">
-		</div>
-	</section>
-
-	<section id="testimonials" class="clearfix">
-		<div>
-			<img src="images/couple pic 2 copy.png" alt="customer 1" title="Sarah+Ivan"
-			width= "179" height= "150">
-			<hr>
-			<p>"With ScapeGoat we found Janet (designer) who used her great expertise in transforming our entire frontyard into a contemporary oasis."-Sarah and Ivan H., Los Angeles</p>
-		</div>
-		<div>
-			<img src="images/woman pic 3 copy.png" alt="customer 2" title="Katie" width= "	150" height= "150">
-			<hr>
-			<p>"I feel such great pride with my new curb appeal."-Katie C., Arizona</p>
-		</div>
-		<div>
-			<img src="images/woman pic 1 copy.png" alt="customer 1" title="Lorianne" width=	 "150" height= "150">
-			<hr>
-		    <p>"Scapegoat and Diane gave me the confidence I needed to finally create the my dream backyard."-Lorianne M., Massachusetts</p>
-		</div>
-	</section>
-
-	<section id="perks" class="clearfix">
-		<h2> Get the most out of signing up for free</h2>
-		<div> 
-			<img src="images/new money coin.png" alt="save money" width= "100" height= "100">
-			<h5>Budgeting made easier with free quotes</h5>
-			<p>Compare the cost with your top matches.</p>
-		</div>
-		<div>
-	    	<img src="images/new thumb.png" alt="thumb up" width= "100" height="100">
-			<h5>Top-rated design experts near you</h5>
-			<p>See the great reviews of professionals in your area.</p>
-		</div>
-		<div>
-			<img src="images/lt bulb.png" alt="lightbulbpic" width= "100" height= "100">
-			<h5>Design themes for great project ideas.</h5>
-			<p>See our gallery and blogs for cool design inspiration.</p>
-		</div>
-	</section>
-
-	<footer>
-		<nav>
-			<a href="#">FAQ</a>
-			<a href="#">Contact Us</a>
-			<a href="#">Resources</a>
-			<a href="#">Blog</a>
-			<a href="#">Get the App</a>
-		</nav>
-	</footer>
-
-</body>
+		<footer>
+			<nav>
+				<a href="#">FAQ</a>
+				<a href="#">Contact Us</a>
+				<a href="#">Resources</a>
+				<a href="#">Blog</a>
+				<a href="#">Get the App</a>
+			</nav>
+		</footer>
+	</body>
 </html>
