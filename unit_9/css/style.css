@@ -54,7 +54,7 @@ footer {
 }
 
 section {
-	padding: 2em;
+	padding: 4em 2em;
 }
 
 body {
@@ -132,7 +132,7 @@ h5 {
 }
 
 p {
-	text-align: center;
+	/* text-align: left; */
 }	
 
 #slogan {
@@ -148,8 +148,9 @@ p {
 }
 
 #about p{
-	width: 50%;
+	max-width: 35em;
 	margin:auto;
+	text-align: justify;
 }
 #about img{
 	width:10%;
@@ -157,6 +158,8 @@ p {
 
 #how-it-works{
 	background-color: #BDBFB9;
+	/* width: 1200px; */
+	margin: auto;
 }
 
 .hiw-columns {
@@ -164,7 +167,7 @@ p {
 	width: 22%;
 	margin: 1.5%;
 	padding: .75em 1em;
-	background-color: #BDBFB9;
+	/* background-color: #BDBFB9; */
 	float:left;
 }
 #clearfix:after {
@@ -197,7 +200,7 @@ p {
 	background-color: grey;
 	border:#F69C34 4px solid;
 	color:white;
-	margin-top: .75em;
+	margin-top: 4.75em;
 	text-transform: uppercase;
 	font-family:'Helvetica neue', sans-serif;
 }
@@ -214,8 +217,8 @@ h2+ hr{
 
 .group-images-one {
 	color:#616A6B;
-	width: 29%;
-	margin: 2%;
+	width: 32.33%;
+	margin: .5%;
 	padding: .75em 1em;
 	float:left;
 	background-color:#E2E1DE;
@@ -236,8 +239,8 @@ h2+ hr{
 
 .group-images-two {
 	color:#616A6B;
-	width: 29%;
-	margin: 2%;
+	width: 32.33%;
+	margin: -5.5em .5% .5%;
 	padding: .75em 1em;
 	float:left;
 	background-color:#E2E1DE;
@@ -336,9 +339,9 @@ fieldset {
 form div {
 	border:1px solid #2F4F4F;
 	display:inline-block;
-	width: 8em;
-	height: 8em;
-	border-radius: 55%;
+	width: 10em;
+	height: 10em;
+	border-radius: 50%;
 	color:#FFFAE0;
 	background-color: #2F4F4F;
 	margin: 20px 12px;
