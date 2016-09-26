@@ -54,7 +54,7 @@ footer {
 }
 
 section {
-	padding: 2em;
+	padding: 4em 2em;
 }
 
 body {
@@ -111,6 +111,7 @@ h2 {
 	color: #464741;
 	font-family: 'Helvetica neue', sans-serif;
 	padding:.24%;
+	margin-bottom: .25em;
 }
 h3 {
 	color: #9C2C41;
@@ -148,9 +149,11 @@ p {
 }
 
 #about p{
-	width: 50%;
+	max-width: 35em;
 	margin:auto;
+	text-align: justify;
 }
+
 #about img{
 	width:10%;
 }
@@ -164,7 +167,6 @@ p {
 	width: 22%;
 	margin: 1.5%;
 	padding: .75em 1em;
-	background-color: #BDBFB9;
 	float:left;
 }
 #clearfix:after {
@@ -336,9 +338,9 @@ fieldset {
 form div {
 	border:1px solid #2F4F4F;
 	display:inline-block;
-	width: 8em;
-	height: 8em;
-	border-radius: 55%;
+	width: 9em;
+	height: 9em;
+	border-radius: 50%;
 	color:#FFFAE0;
 	background-color: #2F4F4F;
 	margin: 20px 12px;
@@ -360,13 +362,42 @@ button {
 }
 
 
+@media only screen and (max-width:1140px){
+	fieldset{
+		margin-top: 1em;
+	}
+
+	#slogan{
+		padding-top: 1.7em;
+	}
+}
+
+@media only screen and (max-width:1055px){
+	#slogan{
+		padding-top:.85em;
+	}
+
+	fieldset{
+		margin-top: 1.5em;
+
+	}
+}
+
+
 @media only screen and (max-width:868px){
+	form div {
+		display:none;
+	}
 	.group-images-one{
 		height:320px;
 	}
 
 	fieldset{
-		margin-top:1em;
+		margin-top:2em;
+	}
+
+	button{ 
+		margin: 5em auto 0;
 	}
 
 	.client-columns img{
@@ -378,6 +409,7 @@ button {
 	footer a{
 		margin-right:.75em;
 	}
+
 	#about p{
 		width:75%;
 	}
@@ -403,18 +435,22 @@ button {
 		display: block;
 		text-align: center;
 	}
+
 	#toggle:checked + nav{
 		display: block;
 	}
+
 	footer nav{
 		display:block;
 	}
 	header p{
 		float:none;
 	}
+
 	.login{
 		float:none;
 	}
+
 	fieldset{
 		margin-top:2em;
 	}
@@ -422,9 +458,11 @@ button {
 	body { 
 	    font-size: 15px; 
 	}
+
 	.client-columns img{
 		width:70%;
 	}
+
 	.perks-columns img{
 		width:33%;
 	}
@@ -433,10 +471,6 @@ button {
 
 
 @media only screen and (max-width: 695px){
- 	
- 	form div {
-		display:none;
-	}
 
 	button{
 		margin-top: 3em;
@@ -455,6 +489,7 @@ button {
 		margin-top:1em;
 		height:auto;
 	}
+
 	.group-images-one p{
 		font-size:15px;
 	}
@@ -471,6 +506,7 @@ button {
 		width:50%;
 		margin:auto;
 	}
+
 	.perks-columns{
 		float:none;
 		width:40%;
@@ -482,19 +518,63 @@ button {
 	body{
 		font-size: 15px;
 	}
+
 	#slogan{
-		font-size:1.8em;
-		padding-top:0;
+		font-size:1.7em;
+		padding-top:.25em;
+		margin-top:.50em;
+	}
+
+	button{
 		margin-top:1em;
-	}	
+	}
+}
+
+@media only screen and (max-width: 513px){
+	#subheading{
+		display:none;
+	}
+
+	#slogan{
+		margin-top:.15em;
+	}
+
+	fieldset{
+		margin-top: .75em;
+	}
+
+	button{
+		margin-top:2.5em;
+	}
+}
+
+@media only screen and (max-width: 470px){
+	#slogan{
+		margin-top:.1em;
+	}
+
+	fieldset{
+		margin-top:.20em;
+	}
+
+	button{
+		margin-top: 1em;
+	}
+}
+
+@media only screen and (max-width: 440px){
+	#slogan{
+		margin-top:0;
+	}
+
+	fieldset{
+		margin-top:0;
+	}
 }
 
 @media only screen and (max-width: 400px){
 	body{
 		font-size: 14px;
-	}
-	#subheading{
-		display:none;
 	}
 
 	#slogan{
@@ -531,7 +611,11 @@ button {
 	}
 	
 	fieldset{
-		margin-top: .75em;
+		display:none;
+	}
+
+	button{
+		display:none;
 	}
 }
 
