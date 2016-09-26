@@ -156,6 +156,7 @@ p {
 
 #about img{
 	width:10%;
+	margin-left:1em;
 }
 
 #how-it-works{
@@ -413,6 +414,9 @@ button {
 	#about p{
 		width:75%;
 	}
+	#about img{
+		width: 12%;
+	}
 }
 
 @media only screen and (max-width:760px){
@@ -546,6 +550,9 @@ button {
 	button{
 		margin-top:2.5em;
 	}
+	#about img{
+		width: 15%;
+	}
 }
 
 @media only screen and (max-width: 470px){
@@ -616,6 +623,9 @@ button {
 
 	button{
 		display:none;
+	}
+	#about img{
+		width: 20%;
 	}
 }
 
