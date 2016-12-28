@@ -1,0 +1,427 @@
+@import url(https://fonts.googleapis.com/css?family=Khula);
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+@import url(https://fonts.googleapis.com/css?family=Martel:300);
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=David+Libre|Libre+Franklin|Open+Sans|Rhodium+Libre');
+
+
+* {margin:0;padding:0;box-sizing:border-box;}
+
+header {  
+	background-color: #CB4335;
+	display: block;
+}	
+header p {
+	float: left;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+nav { 
+	padding-top: 1.2em; 
+	padding-bottom:.50em;
+}
+
+nav a {
+	color: #F3C9BB;
+	padding: 0 32px;
+	margin-left: 10em;
+	text-decoration: none;
+}	
+
+nav a:hover {
+	/*background-color: #B6380E;
+	border-radius:4%;*/
+	color:#FFD700;
+}
+label {
+	color: #F3C9BB;
+	padding: 0 32px;
+	margin-right: 1em;
+	text-decoration: none;
+	display: none;
+}	
+
+#toggle{ 
+	display:none; 
+}
+
+footer {
+	background-color: #CB4335;
+	padding: 1%;
+}
+ footer a{
+ 	margin-left: 4em;
+ }
+
+section {
+	padding: 4em 2em;
+}
+
+body {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+#splash {
+	background: url("../images/wallpapers-desktop.jpg");
+	background-size: cover;
+	color:#fff;
+	height: 90vh;
+	width: 100%;
+	
+}  	 
+.logo a {
+	background-color:#FFFAE0;
+	color: #CB4335;
+	padding: 10px 5px 6px;
+	font-weight:bold;
+	font-size:2em;
+	text-align: left;
+	width: 100%;
+	font-family: 'Helvetica neue', sans-serif;
+	text-decoration: none;
+}
+
+.logo: active{
+}
+
+.login { 
+	font-family: 'Khula', sans-serif;
+	text-align: right;
+	float: right;
+	padding: 12px 12px 0;
+}
+.login a {
+	color: #FFFAE0;
+	border: 1px #FFFAE0 solid;
+	border-radius: 4%;
+	padding: 0 16px;
+	margin: 5px 0 ;
+	text-decoration: none;
+
+}
+.login a:hover {
+	background-color: #FFFAE0;
+	color:#9C2C41;
+	font-style: bold;
+}
+/*h1{
+	color:#FFFAE0;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size:2em;*/
+}
+
+h2 {
+	color: #464741;
+	font-family: 'Helvetica neue', sans-serif;
+	padding:.24%;
+	margin-bottom: .25em;
+}
+
+/*h3 {
+	color: #464741;
+	margin-bottom:1em;
+	font-family: 'Open Sans', sans-serif;
+
+}*/
+
+#subheading {
+	color:#26A69A;
+	margin-bottom:.80em;
+	margin-top:-1em;
+	padding-top:.30em;
+	font-family: 'Open Sans', sans-serif;
+	/*font-weight:400;*/
+	font-size:1.6em;
+
+}
+
+h4 {
+	font-family: 'Helvetica neue', sans-serif;
+	font-size: 1.2em;
+	color:#464741;
+	margin-bottom: .75em;
+	background-color:;
+}
+
+h5 {
+	font-family: 'Helvetica neue', sans-serif;
+	font-size: 1.2em;
+	color: #D35400;
+	margin-bottom: 1em;
+
+}
+
+p {
+	text-align: center;
+}	
+
+/*#slogan {
+	    font-size: 3em;
+		color: #FFFAE0;
+		font-family: 'Khula', sans-serif;
+		padding-top: 2.5em;
+		font-weight:
+		margin:
+		margin-right:;
+}*/
+h1 img{  
+		width: 42%;
+		margin-left:10em;
+}
+
+
+#paperwall{
+background: url("../images/post Pro-1.jpg");
+background-repeat: repeat;
+}
+
+
+
+h2+ hr{
+	border:none;
+	height:1px;
+ 	width: 40%;
+ 	margin:auto;
+ 	margin-bottom:.75em;
+ 	background-color: #464741;
+}
+
+
+
+.perks-columns img {
+	width: 100%;
+	height:148px;
+}
+
+#perks{
+	background-color:#FFFAE0;
+	padding:4em;
+
+}
+#perks p{
+	margin:1em;
+}
+
+.perks-columns{
+	color:#616A6B;
+	width: 30%;
+	margin: 1.5%;
+	margin-top:3em;
+	padding: .75em 1em;
+	background-color: #FCF3CF;
+	float:left;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+ #perks a {
+ 	text-decoration: ;
+ 	color:green;
+ 	/*border-bottom: 1px solid green;*/
+ }
+
+
+main{
+	padding-left:4em;
+}
+h4{
+	background-color:;
+}
+
+
+
+
+
+
+/*@media only screen and (max-width:1280px){
+	#slogan{
+		padding-top:0;
+	}
+}
+
+@media only screen and (max-width:1140px){
+
+	#slogan{
+		padding-top: 0;
+	}
+}
+
+@media only screen and (max-width:1055px){
+	#slogan{
+		padding-top:.85em;
+	}
+
+}*/
+@media only screen and (max-width:1030px){
+	nav a{
+		margin-left:6em;
+	}
+}	
+@media only screen and (max-width:967px){
+	.perks-columns{ 
+		float:none; 
+		width:50%;
+		margin:auto;
+	}
+	.perks-columns img{
+		width:100%;
+		height:235px;
+	}
+}
+
+@media only screen and (max-width:898px){
+	
+	footer a{
+		margin:auto;
+	}
+}
+@media only screen and (max-width:838px){
+	nav a{
+		margin-left:3em;
+	}
+	h1 img{
+		width:49%;
+		margin-left:8em;
+	}
+}
+ 
+@media only screen and (max-width:772px){
+	footer a{
+		margin-right:.75em;
+	}
+}
+
+@media only screen and (max-width:760px){
+	
+}
+
+@media only screen and (max-width:752px){
+
+	.perks-columns img{
+		width:80%;
+		height:235px;
+	}
+
+	.perks-columns{
+		width:100%;
+	}
+
+	label {
+		display: block;
+		padding-top: 1em;
+	}	
+	nav {
+		display: none;
+		padding-top:0;
+
+	}
+	nav a{
+		display: block;
+		text-align: center;
+	}
+
+	#toggle:checked + nav{
+		display: block;
+	}
+
+	footer nav{
+		display:block;
+	}
+	header p{
+		float:none;
+	}
+
+	.login{
+		float:none;
+	}
+	
+	body { 
+	    font-size: 15px; 
+	}
+
+}
+
+
+@media only screen and (max-width: 695px){
+	.perks-columns img{
+		width:80%;
+		height:235px;
+	}
+
+}
+
+@media only screen and (max-width: 550px){
+	body{
+		font-size: 15px;
+	}
+
+	h1 img { 
+		width:85%; 
+		margin-left:5em;
+	}
+	.perks-columns img{
+		width:100%;
+
+	}
+
+
+}
+
+@media only screen and (max-width: 513px){
+	#subheading{
+		display:none;
+	}
+
+	#slogan{
+		margin-top:.15em;
+	}
+
+}
+
+@media only screen and (max-width: 470px){
+	#slogan{
+		margin-top:.1em;
+	}
+
+}
+
+@media only screen and (max-width: 440px){
+	#slogan{
+		margin-top:0;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	body{
+		font-size: 14px;
+	}
+
+	#slogan{
+		width:120%;
+		margin-left:-2em;
+		margin-top:-1em;
+	}
+
+	.perks-columns{
+		width:100%;
+	}
+	
+}
+
