@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Martel:300);
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=David+Libre|Libre+Franklin|Open+Sans|Rhodium+Libre');
-
+@import url('https://fonts.googleapis.com/css?family=Antic+Slab|Average|Enriqueta|Fauna+One|Lora');
 
 * {margin:0;padding:0;box-sizing:border-box;}
 
@@ -128,12 +128,6 @@ h2 {
 	margin-bottom: .25em;
 }
 
-/*h3 {
-	color: #464741;
-	margin-bottom:1em;
-	font-family: 'Open Sans', sans-serif;
-
-}*/
 
 #subheading {
 	color:#26A69A;
@@ -149,21 +143,25 @@ h2 {
 h4 {
 	font-family: 'Helvetica neue', sans-serif;
 	font-size: 1.2em;
-	color:#464741;
-	margin-bottom: .75em;
-	background-color:;
+	color:#D35400;
 }
 
-h5 {
+/*h5 {
 	font-family: 'Helvetica neue', sans-serif;
 	font-size: 1.2em;
 	color: #D35400;
-	margin-bottom: 1em;
+	margin-bottom: 1em;*/
+
+}
+h6 {
+	font-family: 'Helvetica neue', sans-serif;
+	color:white;
 
 }
 
 p {
 	text-align: center;
+	font-family: 'Average', serif;
 }	
 
 /*#slogan {
@@ -202,6 +200,7 @@ h2+ hr{
 .perks-columns img {
 	width: 100%;
 	height:148px;
+	margin-top:.75em;
 }
 
 #perks{
@@ -210,7 +209,8 @@ h2+ hr{
 
 }
 #perks p{
-	margin:1em;
+	margin:.75em;
+	text-align:left;
 }
 
 .perks-columns{
@@ -238,37 +238,9 @@ h2+ hr{
  }
 
 
-main{
-	padding-left:4em;
-}
-h4{
-	background-color:;
-}
 
 
 
-
-
-
-/*@media only screen and (max-width:1280px){
-	#slogan{
-		padding-top:0;
-	}
-}
-
-@media only screen and (max-width:1140px){
-
-	#slogan{
-		padding-top: 0;
-	}
-}
-
-@media only screen and (max-width:1055px){
-	#slogan{
-		padding-top:.85em;
-	}
-
-}*/
 @media only screen and (max-width:1030px){
 	nav a{
 		margin-left:6em;
